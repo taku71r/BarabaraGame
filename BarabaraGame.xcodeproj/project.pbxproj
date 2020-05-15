@@ -15,6 +15,10 @@
 		FDE94702246E531800452529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE94700246E531800452529 /* LaunchScreen.storyboard */; };
 		FDE9470D246E531800452529 /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9470C246E531800452529 /* BarabaraGameTests.swift */; };
 		FDE94718246E531800452529 /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE94717246E531800452529 /* BarabaraGameUITests.swift */; };
+		FDE94727246E54E600452529 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE94725246E54E500452529 /* tail.png */; };
+		FDE94728246E54E600452529 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE94726246E54E600452529 /* bar.png */; };
+		FDE9472A246E594500452529 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE94729246E594500452529 /* GameViewController.swift */; };
+		FDE9472C246E596600452529 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9472B246E596600452529 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		FDE94713246E531800452529 /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE94717246E531800452529 /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		FDE94719246E531800452529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE94725246E54E500452529 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		FDE94726246E54E600452529 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		FDE94729246E594500452529 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FDE9472B246E596600452529 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		FDE946F4246E531500452529 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				FDE94726246E54E600452529 /* bar.png */,
+				FDE94725246E54E500452529 /* tail.png */,
 				FDE946F5246E531500452529 /* AppDelegate.swift */,
 				FDE946F7246E531500452529 /* SceneDelegate.swift */,
 				FDE946F9246E531500452529 /* ViewController.swift */,
@@ -106,6 +116,8 @@
 				FDE946FE246E531800452529 /* Assets.xcassets */,
 				FDE94700246E531800452529 /* LaunchScreen.storyboard */,
 				FDE94703246E531800452529 /* Info.plist */,
+				FDE94729246E594500452529 /* GameViewController.swift */,
+				FDE9472B246E596600452529 /* RankingViewController.swift */,
 			);
 			path = BarabaraGame;
 			sourceTree = "<group>";
@@ -233,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE94702246E531800452529 /* LaunchScreen.storyboard in Resources */,
+				FDE94728246E54E600452529 /* bar.png in Resources */,
+				FDE94727246E54E600452529 /* tail.png in Resources */,
 				FDE946FF246E531800452529 /* Assets.xcassets in Resources */,
 				FDE946FD246E531500452529 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE9472C246E596600452529 /* RankingViewController.swift in Sources */,
+				FDE9472A246E594500452529 /* GameViewController.swift in Sources */,
 				FDE946FA246E531500452529 /* ViewController.swift in Sources */,
 				FDE946F6246E531500452529 /* AppDelegate.swift in Sources */,
 				FDE946F8246E531500452529 /* SceneDelegate.swift in Sources */,
